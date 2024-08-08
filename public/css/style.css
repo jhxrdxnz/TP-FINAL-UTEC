@@ -1,0 +1,152 @@
+body {
+  font-family: "Rubik", sans-serif;
+
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    position: fixed; /* para que el nav este quieto */
+    top: 0;          /* Fijamo en nav */
+    width: 100%;     /* para que ocupe toda la pantalla */
+	left: 0%;
+    background-color: black;
+    z-index: 1000;   /* Asegura que el nav se muestre por encima de otros elementos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: agrega una sombra para mayor visibilidad */
+	height: 13%;
+}
+
+
+h1{
+	font-size: 40px;
+	padding-right: 1%;
+	
+}
+h4 {
+    font-family: "Rubik", sans-serif;
+    padding: 1.5%;
+    background-color: rgb(29, 29, 34);
+    color:white;
+    
+}
+
+.titulo3 {
+    padding-top: 2%;
+	font-size: 30px;
+	font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+ul li{
+	display: inline-block;
+	padding: 0px 20px;
+	font-size: 22;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+
+}
+a:hover{
+	color: grey;
+}
+
+main{
+	margin-top: 70px; /* Pa que el menu no me tape la igm */
+    padding: 5px;
+	background-color: #e2e2e2;
+    margin-bottom: 0%;
+}
+.mainp{
+    color: black;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #000000;
+}
+.product {
+    background-color: #000000;
+    flex: 0 1 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.boton { /*css del boton atetik*/
+	
+	display: inline-block;
+	margin: 1%;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: white;
+	background-color: black;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 4px #999; /*La sombraaa :v*/
+}
+
+.boton:hover {
+	background-color: grey; /*cursor encima del boton*/
+	color: black;
+}
+
+
+p {
+	color: white;
+}
+/*
+Aqui empieza el pie de paginaaa
+	
+}*/
+.contact-form {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.footer {
+    margin-top: 0%;
+    background-color: #000000;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-column {
+    padding: 0 20px;
+}
+
+.footer-column p {
+    margin: 0px 0;
+}
+.pietext p{
+    color: white;
+}
